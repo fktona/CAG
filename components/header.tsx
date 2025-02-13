@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
   Sheet,
@@ -38,13 +37,7 @@ export function Header() {
             Community
           </Link>
           <Link
-            href="#founder"
-            className="text-[22px] leading-[28px] hover:text-[#FFCA0D] transition-colors"
-          >
-            Founder
-          </Link>
-          <Link
-            href="#founder"
+            href="#partner"
             className="text-[22px] leading-[28px] hover:text-[#FFCA0D] transition-colors"
           >
             Partner
@@ -52,16 +45,16 @@ export function Header() {
         </nav>
 
         <div className="flex items-center gap-4">
-          <div className="relative isolate hidden md:block">
+          <div className="relative isolate group hidden md:block">
             <Button
               variant="default"
-              className="bg-[#FFCA0D] relative text-[22px] leading-[28px] hover:bg-yellow-500 rounded-[10px] lg:px-[30px] py-[10px] text-black font-bold"
+              className="bg-[#FFCA0D] relative  group-hover:scale-105 group-active:scale-95 text-[22px] leading-[28px] hover:bg-yellow-500 rounded-[10px] lg:px-[30px] py-[10px] text-black font-bold"
             >
               Buy $B
             </Button>
             <Button
               variant="default"
-              className="bg-[#F9E7CD] pointer-events-none rounded-[10px] absolute -left-1 top-1 -z-10 text-[22px] leading-[28px] lg:px-[30px] py-[10px] text-black font-bold"
+              className="bg-[#F9E7CD] pointer-events-none group-hover:scale-105 group-active:scale-90 rounded-[10px] absolute -left-1 top-1 -z-10 text-[22px] leading-[28px] lg:px-[30px] py-[10px] text-black font-bold"
             >
               Buy $B
             </Button>
@@ -95,13 +88,7 @@ export function Header() {
                     Community
                   </Link>
                   <Link
-                    href="#founder"
-                    className="text-[22px] leading-[28px] hover:text-[#FFCA0D] transition-colors"
-                  >
-                    Founder
-                  </Link>
-                  <Link
-                    href="#founder"
+                    href="#partner"
                     className="text-[22px] leading-[28px] hover:text-[#FFCA0D] transition-colors"
                   >
                     Partner

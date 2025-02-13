@@ -31,6 +31,10 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .animate-float {
   animation: float 3s ease-in-out infinite;
 }
@@ -42,4 +46,3 @@
 .animate-scroll-x {
   animation: scroll-x 20s linear infinite;
 }
-

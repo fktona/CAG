@@ -19,7 +19,10 @@ export function FounderPet() {
   }, []);
 
   return (
-    <section className="relative my-[175px] bg-[#FFCA0D] lg:py-24 py-16">
+    <section
+      id="about"
+      className="relative my-[175px] bg-[#FFCA0D] lg:py-24 py-16"
+    >
       <div className="absolute left-0 md:-top-[165px] -top-[106px] w-full h-[170px]">
         <Image
           src="/sec-up.png"
@@ -53,9 +56,9 @@ export function FounderPet() {
         />
       </div>
       <div className="container relative z-30">
-        <div className="flex justify-between flex-col lg:flex-row items-center gap-12 w-full r">
-          <div>
-            <h2 className="md:text-[46.5px] md:leading-[60px] text-[22px] leading-[28px] lg:whitespace-nowrap font-bold text-black mb-6">
+        <div className="flex justify-between  lg:min-h-[700px]  flex-col lg:flex-row items-center gap-12 w-full ">
+          <div className=" h-fit">
+            <h2 className="md:text-[46.5px] md:leading-[60px] text-[22px] leading-[28px] lg:whitespace-nowrap font-bold text-black ">
               BNB'S VERY OWN FOUNDER PET
             </h2>
             <p className="text-black/80 md:text-[38.5px] md:leading-[45px] text-[16px] leading-[20.42px] mb-8">
@@ -64,14 +67,16 @@ export function FounderPet() {
               thought they would never determine an animal connection to take
               over his home chain of BNB, until B was found
             </p>
-            <Button
-              variant="default"
-              className="bg-black rounded-[10px] px-[50px] py-[18px] text-[22px] leading-[28] text-white hover:bg-black/80"
+            <a
+              className="bg-black rounded-[10px] text-white  text-[22px] leading-[28px]  px-[30px] py-[10px]"
+              href="https://web.archive.org/web/20210511125839/https://twitter.com/cz_binance/status/1392101778045345796"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              Buy $B
-            </Button>
+              The Tweet
+            </a>
           </div>
-          <div className="relative md:min-w-[500px] w-full max-w-[100%] min-h-full mx-auto rounded-xl overflow-hidden">
+          <div className="relative md:min-w-[500px] w-full h-[700px] max-w-[100%] min-h-full mx-auto rounded-xl overflow-hidden">
             <AnimatePresence mode="wait">
               <motion.div
                 key={currentImageIndex}

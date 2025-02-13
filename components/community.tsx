@@ -3,12 +3,12 @@ import { Button } from "@/components/ui/button";
 
 export function Community() {
   return (
-    <section className="lg:pb-24 py-16 bg-bf">
+    <section id="community" className="lg:pb-24 py-16 bg-bf">
       <div className="container">
-        <div className="grid md:grid-cols-2 gap-12 bg-black rounded-b-[30px] lg:pl-14 px-5 items-center">
+        <div className="grid md:grid-cols-2 gap-12 bg-black rounded-b-[30px] lg:pl-14 px-5 lg:px-0 items-center">
           <div>
             <h2 className=" font-bold md:text-[46.5px] md:leading-[60px] text-[22px] leading-[28px] text-[#FFCA0D] mb-6">
-              JOIN OUR COMMUNITY
+              JOIN NOW
             </h2>
             <p className="text-white  md:text-[38.5px] md:leading-[45px] text-[16px] leading-[20.42px] mb-8">
               Lets show the world B and take over. Lets show the world B and
@@ -17,9 +17,16 @@ export function Community() {
 
             <Button
               variant="default"
-              className="bg-[#FFCA0D] rounded-[10px] px-[50px] py-[18px] text-[22px] leading-[28] text-black"
+              className="bg-[#FFCA0D] rounded-[10px] px-[50px] py-[25px] text-[22px] leading-[28] text-black"
             >
-              Buy $B
+              <a
+                href="https://web.archive.org/web/20210511125839/https://twitter.com/cz_binance/status/1392101778045345796"
+                className="w-full"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Join Now
+              </a>
             </Button>
           </div>
           <div className="relative pb-5 lg:pb-0">

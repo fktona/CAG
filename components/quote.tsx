@@ -107,7 +107,7 @@ export function Quote() {
           />
         </div>
       </section>
-      <div className=" lg:min-h-[30vh] mt-10 h-[20vh] max-h-[300px] bottom-0 left-0 right-0  bg-[#FFCA0D] flex items-center overflow-hidden">
+      <div className="  mt-10 h-[300px] bottom-0 left-0 right-0  bg-[#FFCA0D] flex items-center overflow-hidden">
         <div
           ref={scrollRef}
           className="flex whitespace-nowrap overflow-x-hidden"
@@ -117,9 +117,9 @@ export function Quote() {
               key={i}
               src="/fit-s.svg"
               alt=""
-              width={200}
-              height={180}
-              className="inline-block object-contain"
+              width={500}
+              height={500}
+              className="inline-block object-cover"
             />
           ))}
         </div>

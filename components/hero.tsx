@@ -76,9 +76,14 @@ export function Hero() {
               />
             </div>
           </div>
-          <button className="bg-[#FFCA0D] rounded-[10px] text-black  text-[22px] leading-[28px]  px-[30px] py-[10px]">
+          <a
+            className="bg-[#FFCA0D] rounded-[10px] text-black  text-[22px] leading-[28px]  px-[30px] py-[10px]"
+            href="https://web.archive.org/web/20210511125839/https://twitter.com/cz_binance/status/1392101778045345796"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             The Tweet
-          </button>
+          </a>
         </div>
       </div>
     </section>
