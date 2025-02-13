@@ -25,7 +25,7 @@ export function ChadBros() {
             </p>
             <Button
               variant="default"
-              className="bg-[#FFCA0D] rounded-[10px] px-[50px] py-[25px] text-[22px] leading-[28] text-black hover:bg-black/80"
+              className="bg-[#FFCA0D] rounded-[10px] px-[50px] py-[25px] text-[22px] leading-[28] text-black hover:bg-[#FFCA0D]/80"
             >
               Buy $B
             </Button>
