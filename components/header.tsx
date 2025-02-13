@@ -14,7 +14,7 @@ import {
 export function Header() {
   return (
     <header className="fixed top-0 z-50 w-full bg-black">
-      <div className="container flex py-[14px] items-center justify-between">
+      <div className="container flex py-[8px] items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
           <Image
             src="/logo.svg"

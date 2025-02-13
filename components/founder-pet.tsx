@@ -52,10 +52,10 @@ export function FounderPet() {
           className="w-full lg:hidden h-full"
         />
       </div>
-      <div className="container">
+      <div className="container relative z-30">
         <div className="flex justify-between flex-col lg:flex-row items-center gap-12 w-full r">
           <div>
-            <h2 className="md:text-[46.5px] md:leading-[60px] text-[22px] leading-[28px] font-bold text-black mb-6">
+            <h2 className="md:text-[46.5px] md:leading-[60px] text-[22px] leading-[28px] lg:whitespace-nowrap font-bold text-black mb-6">
               BNB'S VERY OWN FOUNDER PET
             </h2>
             <p className="text-black/80 md:text-[38.5px] md:leading-[45px] text-[16px] leading-[20.42px] mb-8">
