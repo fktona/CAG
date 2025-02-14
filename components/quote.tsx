@@ -107,7 +107,7 @@ export function Quote() {
           />
         </div>
       </section>
-      <div className="  mt-10 h-[300px] bottom-0 left-0 right-0  bg-[#FFCA0D] flex items-center overflow-hidden">
+      <div className="  mt-10 h-[90px] bottom-0 left-0 right-0  bg-[#FFCA0D] flex items-center overflow-hidden">
         <div
           ref={scrollRef}
           className="flex whitespace-nowrap overflow-x-hidden"
@@ -119,7 +119,7 @@ export function Quote() {
               alt=""
               width={500}
               height={500}
-              className="inline-block object-cover"
+              className="inline-block object-contain h-[257px] w-[182px]"
             />
           ))}
         </div>

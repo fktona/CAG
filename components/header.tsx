@@ -73,26 +73,29 @@ export function Header() {
               </Button>
             </SheetTrigger>
             <SheetContent side="right" className="w-full p-0 bg-black">
-              <div className="flex flex-col h-full">
+              {" "}
+              <div className="flex flex-col justify-evenly h-full">
                 <nav className="flex flex-col gap-4 p-6">
-                  <Link
-                    href="#about"
-                    className="text-[22px] leading-[28px] hover:text-[#FFCA0D] transition-colors"
-                  >
-                    About
-                  </Link>
-                  <Link
-                    href="#community"
-                    className="text-[22px] leading-[28px] hover:text-[#FFCA0D] transition-colors"
-                  >
-                    Community
-                  </Link>
-                  <Link
-                    href="#partner"
-                    className="text-[22px] leading-[28px] hover:text-[#FFCA0D] transition-colors"
-                  >
-                    Partner
-                  </Link>
+                  <SheetTrigger className="w-full h-full flex flex-col gap-4 p-6">
+                    <Link
+                      href="#about"
+                      className="text-[22px] leading-[28px] hover:text-[#FFCA0D] transition-colors"
+                    >
+                      About
+                    </Link>
+                    <Link
+                      href="#community"
+                      className="text-[22px] leading-[28px] hover:text-[#FFCA0D] transition-colors"
+                    >
+                      Community
+                    </Link>
+                    <Link
+                      href="#partner"
+                      className="text-[22px] leading-[28px] hover:text-[#FFCA0D] transition-colors"
+                    >
+                      Partner
+                    </Link>
+                  </SheetTrigger>
                 </nav>
                 <div className="mt-auto p-6">
                   <div className="relative isolate">
@@ -104,6 +107,7 @@ export function Header() {
                     </Button>
                     <Button
                       variant="default"
+                      asChild
                       className="w-full bg-[#F9E7CD] pointer-events-none rounded-[10px] absolute -left-1 top-1 -z-10 text-[22px] leading-[28px] py-[10px] text-black font-bold"
                     >
                       Buy $B

@@ -20,7 +20,7 @@ export function Community() {
               className="bg-[#FFCA0D] rounded-[10px] px-[50px] py-[25px] text-[22px] leading-[28] text-black"
             >
               <a
-                href="https://web.archive.org/web/20210511125839/https://twitter.com/cz_binance/status/1392101778045345796"
+                href="https://twitter.com/CzGoatB"
                 className="w-full"
                 target="_blank"
                 rel="noopener noreferrer"

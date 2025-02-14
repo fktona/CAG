@@ -22,6 +22,15 @@ export function Footer() {
           />
           <nav className="flex md:text-[22px]  flex-col lg:flex-row text-[17px] leading-[28px] mr-10 items-center gap-6">
             <div className="flex items-center gap-6">
+              <a href="https://twitter.com/CzGoatB" target="_blank">
+                <Image
+                  alt="twitter"
+                  src={"/x.svg"}
+                  width={43}
+                  height={43}
+                  className="w-[20px] aspect-square lg:w-[43px]"
+                />{" "}
+              </a>
               <Link
                 href="#about"
                 className=" text-white hover:text-[#FFCA0D] transition-colors"
@@ -33,6 +42,12 @@ export function Footer() {
                 className=" text-white hover:text-[#FFCA0D] transition-colors"
               >
                 Community
+              </Link>
+              <Link
+                href="#partner"
+                className=" text-white hover:text-[#FFCA0D] transition-colors"
+              >
+                Partner
               </Link>
             </div>
             <div className="relative group isolate">

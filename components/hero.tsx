@@ -66,13 +66,13 @@ export function Hero() {
               height={500}
               className="animate-bounce-slow mx-auto max-w-[234px] max-h-[335px] lg:max-w-full lg:max-h-full"
             />
-            <div className="absolute  w-full h-full flex items-end  bottom-0">
+            <div className="absolute   w-full h-full flex items-end  bottom-0">
               <Image
                 src="/tweet2.png"
                 alt="tweet"
                 width={1920}
                 height={1080}
-                className="w-full object-contain h-[160px]"
+                className="w-full object-contain border border-[#FFCA0D] h-[160px] rounded-xl"
               />
             </div>
           </div>
