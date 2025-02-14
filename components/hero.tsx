@@ -68,7 +68,7 @@ export function Hero() {
             />
             <div className="absolute  w-full h-full flex items-end  bottom-0">
               <Image
-                src="/tweet.svg"
+                src="/tweet2.png"
                 alt="tweet"
                 width={1920}
                 height={1080}

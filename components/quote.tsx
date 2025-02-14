@@ -96,7 +96,7 @@ export function Quote() {
               height={342}
               className="contain absolute hidden lg:block -right-[20%] -top-10"
             />
-            $BA CHAD | $B COOL
+            $B A CHAD | $B COOL
           </footer>
           <Image
             alt="Quote"
