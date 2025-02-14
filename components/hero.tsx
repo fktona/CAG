@@ -72,7 +72,7 @@ export function Hero() {
                 alt="tweet"
                 width={1920}
                 height={1080}
-                className="w-full object-contain border border-[#FFCA0D] h-[160px] rounded-xl"
+                className="w-full object-contain  h-[160px] rounded-xl"
               />
             </div>
           </div>
