@@ -58,7 +58,7 @@ export function Hero() {
               className="animate-bounce-slow max-w-[234px] max-h-[335px] lg:max-w-full lg:max-h-full"
             />
           </div>
-          <div className="relative  lg:max-w-[411px] lg:w-fit w-full mx-auto mb-8">
+          <div className="relative flex flex-col gap-6 lg:mb-20 items-center  lg:max-w-[411px] lg:w-fit w-full mx-auto mb-8">
             <Image
               src="/hero-goat.svg"
               alt="Goat Character"
@@ -66,18 +66,18 @@ export function Hero() {
               height={500}
               className="animate-bounce-slow mx-auto max-w-[234px] max-h-[335px] lg:max-w-full lg:max-h-full"
             />
-            <div className="absolute   w-full h-full flex items-end  bottom-0">
+            <div className="absolute   w-full lg:min-w-[500px]   h-full flex items-end  bottom-0">
               <Image
                 src="/tweet2.png"
                 alt="tweet"
                 width={1920}
                 height={1080}
-                className="w-full object-contain  h-[160px] rounded-xl"
+                className="w-full object-contain lg:object-cover  h-[180px] rounded-xl"
               />
             </div>
           </div>
           <a
-            className="bg-[#FFCA0D] rounded-[10px] text-black  text-[22px] leading-[28px]  px-[30px] py-[10px]"
+            className="bg-[#FFCA0D] rounded-[10px] text-black   text-[22px] leading-[28px]  px-[30px] py-[10px]"
             href="https://web.archive.org/web/20210511125839/https://twitter.com/cz_binance/status/1392101778045345796"
             target="_blank"
             rel="noopener noreferrer"

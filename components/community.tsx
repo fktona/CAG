@@ -11,8 +11,7 @@ export function Community() {
               JOIN NOW
             </h2>
             <p className="text-white  md:text-[38.5px] md:leading-[45px] text-[16px] leading-[20.42px] mb-8">
-              Lets show the world B and take over. Lets show the world B and
-              take over.
+              Lets show the world B and take over.
             </p>
 
             <Button
