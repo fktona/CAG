@@ -28,7 +28,7 @@ export function Footer() {
                   src={"/x.svg"}
                   width={43}
                   height={43}
-                  className="w-[20px] aspect-square lg:w-[43px]"
+                  className="w-[20px] hidden  lg:block aspect-square lg:w-[43px]"
                 />{" "}
               </a>
               <Link
@@ -50,6 +50,7 @@ export function Footer() {
                 Partner
               </Link>
             </div>
+
             <div className="relative group isolate">
               <Button
                 variant="default"
@@ -65,6 +66,15 @@ export function Footer() {
                 Buy $B
               </Button>
             </div>
+            <a href="https://twitter.com/CzGoatB" target="_blank">
+              <Image
+                alt="twitter"
+                src={"/x.svg"}
+                width={43}
+                height={43}
+                className="w-[25px] lg:hidden aspect-square lg:w-[43px]"
+              />{" "}
+            </a>
           </nav>
         </div>
       </div>

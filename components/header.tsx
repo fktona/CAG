@@ -45,6 +45,15 @@ export function Header() {
         </nav>
 
         <div className="flex items-center gap-4">
+          <a href="https://twitter.com/CzGoatB" target="_blank">
+            <Image
+              alt="twitter"
+              src={"/x.svg"}
+              width={43}
+              height={43}
+              className="w-[20px] hidden lg:block aspect-square lg:w-[33px] mr-2"
+            />{" "}
+          </a>
           <div className="relative isolate group hidden md:block">
             <Button
               variant="default"
@@ -98,6 +107,15 @@ export function Header() {
                   </SheetTrigger>
                 </nav>
                 <div className="mt-auto p-6">
+                  <a href="https://twitter.com/CzGoatB" target="_blank">
+                    <Image
+                      alt="twitter"
+                      src={"/x.svg"}
+                      width={43}
+                      height={43}
+                      className="w-[40px] mx-auto lg:hidden mb-12 aspect-square lg:w-[43px]"
+                    />{" "}
+                  </a>
                   <div className="relative isolate">
                     <Button
                       variant="default"
